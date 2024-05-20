@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="sha-icon" href="Icon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<title>Shaurya's Portfolio</title>
+</head>
+<body>
+
+<div class="navbar" id="myNavbar">
+  <div class="logo">
+    <img src="Images/logo.jpg" alt="Logo">
+  </div>
+  <a href="javascript:void(0);" class="menu-icon" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </a>
+  <div class="nav-elements" id="navElements">
+    <a href="#Ed-1">EDUCATION</a>
+    <a href="#Sk-1">SKILLS</a>
+    <a href="#Pr-1">PROJECTS</a>
+    <a href="#Cn-1">CONTACT</a>
+  </div>
+</div>
+
+<div class="container">
+    <div class="content-1">
+        Hi, I AM SHAURYA
+    </div>
+    <div class="content-2">
+        Driven software developer intern with a strong focus on utilizing C++ as a primary programming language.
+    </div>
+    <div class="whatsapp-icon">
+        <a href="https://api.whatsapp.com/send?phone=917870046623" target="blank">
+        <img src="Images/whatsapp.png" alt="WhatsApp-img">
+        </a>   
+    </div>
+</div>
+
+<div class="education-1" id="Ed-1"> 
+    <div class="education-header">EDUCATION</div>
+    <div class="container-edu">
+        <div class="animated-div pink" data-aos="flip-left"><h1>DAV Institute of Engineering and Technology</h1>
+            <h3>BTech (Computer Science Eng..)</h3>
+            <h3>(CSE) Percentage - 7.55 Cgpa</h3>
+            <h3>Skills Learned -: C++, Data Structure & Aogorithm, MySql, Git, Github, JavaScript</h3>
+            <h4>Year (2021-25)</h4>
+        </div>
+        <div class="animated-div yellow" data-aos="flip-left"><h1>MK DAV (CBSE)12th (PCM)</h1><br>
+            <h3>12th (PCM with Computer Sci.)</h3>
+            <h3> Percentage - 7.89 Cgpa</h3>
+            <h3>Skills Learned -: Python (Basics) , C & DBMS  </h3>
+            <h4>Year (2019-21)</h4>
+        </div>
+        <div class="animated-div blue" data-aos="flip-left"><h1>MDN Guru Govind Singh Public School </h1><br>
+            <h3>10th (General) (CBSE)</h3>
+            <h3> Percentage - 8.95 Cgpa</h3>
+            <h3>Skills Learned -: HTML & CSS </h3>
+            <h4>Year (2018-19)</h4>
+        </div>
+    </div>
+</div>
+
+<div class="middle-content-1" id="Sk-1">
+    <div class="mc-1-left"> <img src="Images/BG.png" alt="photo.jpg"></div>
+    <div class="mc-1-right">
+    <div class="skills-container-1">
+        <p>HTML</p>
+        <div class="skills-container">
+            <div class="skills html">90%</div>
+        </div>
+        <p>CSS</p>
+        <div class="skills-container">
+            <div class="skills css">80%</div>
+        </div>
+        
+        <p>JavaScript</p>
+        <div class="skills-container">
+          <div class="skills js">65%</div>
+        </div>
+        <p>C++</p>
+        <div class="skills-container">
+          <div class="skills cpp">70%</div>
+        </div>
+    </div>
+    <div class="skills-container-2">
+        <p>Data Structure</p>
+        <div class="skills-container">
+            <div class="skills ds">65%</div>
+        </div>
+
+        <p>MySql</p>
+        <div class="skills-container">
+            <div class="skills mysql">50%</div>
+        </div>
+        
+        <p>Git</p>
+        <div class="skills-container">
+          <div class="skills git">65%</div>
+        </div>
+
+        <p>GitHub</p>
+        <div class="skills-container">
+          <div class="skills github">80%</div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="projects" id="Pr-1">
+    <div class="project-header">PROJECTS</div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Images/link1.jpg" style="width:100%">
+            <div class = "website-bottom-link">
+                <a href="https://shaurya5642.github.io/PeerToPeer-VideoChat/lobby.html">Website link - 1</a>
+            </div>
+        </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Images/link2.jpg" style="width:100%">
+            <div class="website-bottom-link">
+                <a href="https://shaurya5642.github.io/State-Capital-Search/">Website link - 2</a>
+            </div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Images/link3.jpg" style="width:100%">
+            <div class="website-bottom-link">
+                <a href="https://shaurya5642.github.io/PDF_VIEWER/">Website Link - 3</a>
+            </div>
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</div>
+<div class="text-align-dots">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<footer class="footer" id="Cn-1">
+    <div class="footer-container">
+        <div class="footer-section contact">
+            <h4>Contact</h4>
+            <p>Punam Apartment Road,<br> Town Number Two, Near<br> Vishal mega Mart, Daltonganj,<br> Palamu (822101)</p>
+            <p class="phone-footer">Email: <a href="mailto:shaurya5642@gmail.com" class="phone-footer">shaurya5642@gmail.com</a></p>
+            <p class="phone-footer">Phone: <a href="tel:+917870046623" class="phone-footer">7870046623</a>, <a href="tel:+919431788459" class="phone-footer">9431788459</a></p>
+            <img src="Images/logo.jpg" alt="logo.shaurya" class="footer-logo">
+        </div>
+        <div class="footer-section about">
+            <h4>About</h4>
+            <ul>
+                <li><a href="#Pr-1">Project</a></li>
+                <li><a href="#Ed-1">Education</a></li>
+                <li><a href="#Sk-1">Skills</a></li>
+                <li><a href="#Cn-1">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h4>Social</h4>
+            <ul>
+                <li><a href="https://github.com/shaurya5642" target="blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/shaurya-tiwari-16b36a2aa/" target="blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/______shaurya/" target="blank">Instagram</a></li>
+                <li><a href="https://twitter.com/Shaurya5642" target="blank">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="footer-section websites">
+            <h4>Websites</h4>
+            <ul>
+                <li><a href="https://shaurya5642.github.io/PeerToPeer-VideoChat/lobby.html" target="blank">VideoChat</a></li>
+                <li><a href="https://shaurya5642.github.io/Book-Sandbox/" target="blank">BookList Sandbox</a></li>
+                <li><a href="https://shaurya5642.github.io/PDF_VIEWER/" target="blank">Pdf Viewer</a></li>
+                <li><a href="https://shaurya5642.github.io/State-Capital-Search/" target="blank">Capital Search</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>All Rights Reserved. Copyright © 2024 Shaurya Tiwari Inc.</p>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000
+      });
+</script>
+</body>
+</html>
